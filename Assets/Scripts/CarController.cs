@@ -11,6 +11,8 @@ public class CarController : MonoBehaviour
     public float speedForward,speedBackward;
     public float torqueForward, torqueBackward;
     public bool useFront = true, useRear = true;
+    public Rigidbody2D carBody;
+    public float carRotationSpeed;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,9 @@ public class CarController : MonoBehaviour
     {
         if (Input.GetAxisRaw("Vertical") < 0)
         {
+            carBody.AddTorque(carRotationSpeed * Input.GetAxisRaw("Vertical") * 1);
+
+
             if (useFront)
             {
                 front.motorSpeed = speedForward;
@@ -37,6 +42,7 @@ public class CarController : MonoBehaviour
         }
         else if (Input.GetAxisRaw("Vertical") > 0)
         {
+            carBody.AddTorque(carRotationSpeed * Input.GetAxisRaw("Vertical") * 1);
             if (useFront)
             {
                 front.motorSpeed = speedBackward;
