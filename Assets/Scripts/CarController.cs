@@ -25,8 +25,6 @@ public class CarController : MonoBehaviour
         if (Input.GetAxisRaw("Vertical") < 0)
         {
             carBody.AddTorque(carRotationSpeed * Input.GetAxisRaw("Vertical") * 1);
-
-
             if (useFront)
             {
                 front.motorSpeed = speedForward;

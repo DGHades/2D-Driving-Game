@@ -271,11 +271,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1136803313304547792, guid: d488b297558024d49ad368af3574ab54, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -58.1
+      value: -14.299997
       objectReference: {fileID: 0}
     - target: {fileID: 1136803313304547792, guid: d488b297558024d49ad368af3574ab54, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.182
+      value: -2.914
       objectReference: {fileID: 0}
     - target: {fileID: 1136803313304547792, guid: d488b297558024d49ad368af3574ab54, type: 3}
       propertyPath: m_LocalPosition.z
@@ -368,7 +368,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 35
+  orthographic size: 50
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -420,11 +420,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1136803313304547792, guid: d488b297558024d49ad368af3574ab54, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -56.3
+      value: -12.5
       objectReference: {fileID: 0}
     - target: {fileID: 1136803313304547792, guid: d488b297558024d49ad368af3574ab54, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.196
+      value: -2.9
       objectReference: {fileID: 0}
     - target: {fileID: 1136803313304547792, guid: d488b297558024d49ad368af3574ab54, type: 3}
       propertyPath: m_LocalPosition.z
@@ -552,6 +552,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1825299239}
     - target: {fileID: 5990932306686528904, guid: f875be490a5966043a870acb7a8b458c, type: 3}
+      propertyPath: speedForward
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990932306686528904, guid: f875be490a5966043a870acb7a8b458c, type: 3}
+      propertyPath: speedBackward
+      value: -1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990932306686528904, guid: f875be490a5966043a870acb7a8b458c, type: 3}
       propertyPath: carRotationSpeed
       value: 5
       objectReference: {fileID: 0}
@@ -573,11 +581,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5990932306686528907, guid: f875be490a5966043a870acb7a8b458c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -57.184998
+      value: -13.384996
       objectReference: {fileID: 0}
     - target: {fileID: 5990932306686528907, guid: f875be490a5966043a870acb7a8b458c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1424
+      value: -1.9536002
       objectReference: {fileID: 0}
     - target: {fileID: 5990932306686528907, guid: f875be490a5966043a870acb7a8b458c, type: 3}
       propertyPath: m_LocalPosition.z
